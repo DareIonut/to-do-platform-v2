@@ -1,11 +1,9 @@
-/* *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+#left-menu {
+  position: fixed;
 }
-#root{
-  margin: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+#navbar-container {
+  position: fixed;
+}
+#application-container {
+  padding-top: 4rem;
+}

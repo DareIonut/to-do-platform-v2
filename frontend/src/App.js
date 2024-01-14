@@ -3,6 +3,9 @@ import Container from "@mui/material/Container";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import Home from "./screens/Home";
+import { LeftMenu } from "./components/LeftMenu";
+import { Grid } from "@mui/material";
+import { NavBar } from "./components/NavBar";
 
 const darkTheme = createTheme({
   palette: {
@@ -12,21 +15,28 @@ const darkTheme = createTheme({
 
 const App = () => {
   return (
-    <BrowserRouter>
-      {/* <Header /> */}
-      <main>
+    <div id="main-containter">
+      <BrowserRouter>
         <ThemeProvider theme={darkTheme}>
           <CssBaseline />
-          <Container fixed>
-            <Routes>
-              <Route path="/" element={<Home />} />
-            </Routes>
-          </Container>
+          <NavBar />
+          <div id="application-container">
+            <Grid container spacing={2}>
+              <Grid item xs={6} md={2}>
+                <LeftMenu />
+              </Grid>
+              <Grid item xs={6} md={10}>
+                <Container fixed>
+                  <Routes>
+                    <Route path="/" element={<Home />} />
+                  </Routes>
+                </Container>
+              </Grid>
+            </Grid>
+          </div>
         </ThemeProvider>
-      </main>
-
-      {/* <Footer /> */}
-    </BrowserRouter>
+      </BrowserRouter>
+    </div>
   );
 };
 

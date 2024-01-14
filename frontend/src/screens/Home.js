@@ -54,8 +54,9 @@ const Home = () => {
   }, []);
   return (
     <div className="App">
-      <Stack direction="row" spacing={2} margin="normal">
+      <Stack direction="row" spacing={2} sx={{ m: 5 }}>
         <TextField
+          autoComplete="no"
           error={errorField ? true : false}
           helperText={helperText ? "Introduce the todo!" : false}
           id="outlined-basic"

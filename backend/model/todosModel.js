@@ -1,14 +1,5 @@
 import mongoose from "mongoose";
 
-//The todo mode.
-// const todo = {
-//     todoContent: req.body.todoContent,
-//     todoDescription: req.body.todoDescription,
-//     todoIsChecked: req.body.todoIsChecked,
-//     time: req.body.time,
-//     color: req.body.color,
-//   };
-
 const todoSchema = mongoose.Schema(
   {
     todoTitle: { type: String, required: true },

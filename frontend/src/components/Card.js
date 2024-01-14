@@ -7,7 +7,7 @@ import Typography from "@mui/material/Typography";
 
 export default function BasicCard({ keyId, title, description }) {
   return (
-    <Card sx={{ minWidth: 275 }} key={keyId}>
+    <Card sx={{ minWidth: 200 }} key={keyId}>
       <CardContent>
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
           Word of the Day
