@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Kanban } from "./Kanban";
+import { Kanban } from "./screens/Kanban";
 
 const App = () => {
   return (

@@ -1,0 +1,77 @@
+/* Parent */
+aside {
+  width: 260px;
+  height: 100vh;
+  float: left;
+  background-color: #2b2c37;
+  color: white;
+  border-right: 1px solid #383a4a;
+}
+
+/* Logo styling */
+.logo-container {
+  justify-content: space-around;
+}
+
+.bar {
+  width: 6px;
+  height: 24px;
+  border-radius: 2px;
+  margin: 1.5px;
+}
+
+.bar-0 {
+  background-color: #5b5b90;
+}
+
+.bar-1 {
+  background-color: #414169;
+}
+
+.bar-2 {
+  background-color: #333359;
+}
+
+/* Title */
+.logo-name {
+  font-size: 30px;
+  margin-left: 1rem;
+}
+
+/* Board List */
+
+.board-counter {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+li {
+  font-size: 15px;
+  width: 230px;
+  padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #635fc7;
+}
+
+.logo {
+  margin-right: 8px;
+}
+
+.add-board {
+  font-size: 15px;
+  width: 260px;
+  padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: absolute;
+  bottom: 0;
+  background-color: #635fc7;
+  cursor: pointer;
+}

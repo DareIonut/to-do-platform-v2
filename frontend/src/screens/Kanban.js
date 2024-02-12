@@ -1,5 +1,12 @@
 import React from "react";
+import { Menu } from "../components/Menu";
+import { NavBar } from "../components/Navbar";
 
 export const Kanban = () => {
-  return <div>Kanban</div>;
+  return (
+    <div>
+      <Menu />
+      <NavBar />
+    </div>
+  );
 };

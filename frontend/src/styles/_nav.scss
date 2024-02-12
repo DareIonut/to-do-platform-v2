@@ -1,0 +1,39 @@
+.nav {
+    background-color: #2b2c37;
+    color: white;
+}
+
+.project-name {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.nav-left {
+    position: absolute;
+    right: 0;
+}
+
+.btn-task {
+    padding: 1rem;
+    border-radius: 25px;
+    border: none;
+    background-color: #635fc7;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dot-menu {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.dot {
+    margin: 5px;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 25px;
+}

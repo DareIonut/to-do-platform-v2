@@ -1,0 +1,25 @@
+.fl-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.fl-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.p-25{
+  padding: 25px;
+}
+.pl-25{
+  padding-left: 25px;
+}
+.pr-25{
+  padding-right: 25px;
+}
+.pt-25{
+  padding-top: 25px;
+}
+.pb-25{
+  padding-bottom: 25px;
+}
