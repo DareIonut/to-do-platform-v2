@@ -4,6 +4,7 @@ import cors from "cors";
 import connectDB from "./config/db.js";
 import morgan from "morgan";
 
+//routes imports
 import todoRoutes from "./routes/todoRoutes.js";
 
 dotenv.config();
